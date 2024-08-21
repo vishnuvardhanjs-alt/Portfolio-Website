@@ -1,0 +1,49 @@
+@font-face {
+  font-family: StayClassy;
+  src: url("./assets/Fonts/Stay\ Classy.otf");
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("./assets/Fonts/Ubuntu-Medium.ttf");
+}
+
+html,
+body {
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  margin: 0;
+  background-color: black;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: visible;
+  /* scroll-snap-type: y mandatory; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.Particles {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 2;
+}
+
+.page1{
+  height: 100vh;
+  width: 100vw;
+}
+.page2{
+  height: 100vh;
+  width: 100vw;
+}
+.page3{
+  height: 100vh;
+  width: 100vw;
+}
+
+.dummy{
+  pointer-events: none;
+}
